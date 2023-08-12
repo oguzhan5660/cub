@@ -37,9 +37,9 @@ CompileFlags:
     - -stdpar
     # strip CUDA fatbin args
     - "-Xfatbin*"
-    - "-gpu=*"
-    - "--diag_suppress*"
-    # strip CUDA arch flags
+   - "-X derleyici*"
+    - "-Xcudafe*"
+    - "-rdc=*"
     - "-gencode*"
     - "--generate-code*"
     # strip gcc's -fcoroutines
